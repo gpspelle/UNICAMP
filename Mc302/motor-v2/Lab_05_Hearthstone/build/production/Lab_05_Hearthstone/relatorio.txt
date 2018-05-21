@@ -1,0 +1,33 @@
+Gabriel Pellegrino da Silva / 172358
+
+Relatorio do experimento 5
+
+1. Apos implementar as recomendacoes ditas no enunciado do laboratorio 5 e exe
+cutar 10.000 partidas do jogo LaMa contra o jogador aleatorio proposto, o meu
+jogador obteve a seguinte taxa de desempenho: 
+
+    JogadorRA172358:  4456 
+    JogadorAleatorio: 5544.
+
+2. A classe de jogador, JogadorRA172358New possui as modificações de não utili-
+zar os metodos buffar e focar o gasto de magia em magias de dano em area e colo-
+car lacaios na mesa para atacar no final da rodada.
+
+Foram estudadas heuristicas de atacar os lacaios inimigos com os lacaios da me-
+sa, no entanto, não foi encontrada uma maneira eficaz de realizar isso em nume-
+ros de vitorias. Acredito que para tal, seja necessaria um estudo maior do jogo,
+estrategia e relacionamento entre cartas para colocar em prática uma metrica de
+ataques. O que foge um pouco do esperado para esse laboratorio. 
+
+A ultima implementacao foi utilizar o poder heroico, sempre que possivel para a-
+tacar o heroi inimigo. 
+
+Ademais, os resultados do desempenho do JogadoRA172358New foram: 
+
+    JogadorRA172358New: 6660
+    JogadorAleatorio:   3340.
+
+Realizando o pedido pelo enunciado do laboratorio: aumentar o numero de vitori-
+as. 
+
+

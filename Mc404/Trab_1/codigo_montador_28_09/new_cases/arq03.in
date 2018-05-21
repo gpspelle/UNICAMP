@@ -1,0 +1,6 @@
+.org 0
+ADD "5"
+.org 2
+ADD "5"
+.org 0
+ADD "0"

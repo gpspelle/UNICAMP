@@ -1,0 +1,13 @@
+make main.s
+make clean
+make math.s
+make clean
+make log.s
+make clean
+make main.o
+make clean
+make math.o
+make clean
+make log.o
+make clean
+make prog.x

@@ -1,0 +1,16 @@
+rank(1) = 1
+rank(100) = 2
+rank(200) = 7
+select(1) = 1
+S = {1,100}
+S = {100}
+S = {}
+belongs(1) = true
+belongs(32) = true
+belongs(33) = true
+belongs(100) = false
+rangecount(1,100) = 3
+rangecount(1,200) = 8
+rangecount(1,1) = 1
+rangecount(32,33) = 2
+rangecount(1,32) = 2

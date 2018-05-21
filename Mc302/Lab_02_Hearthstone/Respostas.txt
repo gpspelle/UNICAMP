@@ -1,0 +1,106 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 2
+       
+    Tarefa 1, por default, os atribuitos nao definidos, sao inicializados
+    com 0.
+    System.out.println(lac4); 
+
+    Paulo (ID: 5)
+    Custo de Mana = 10
+    Ataque = 0
+    Vida Atual = 0
+    Vida Maxima = 0
+
+    Tarefa 2, alterando os dados de um lacaio
+    System.out.println(lac1);
+    lac1.setAtaque(lac3.getAtaque());
+    System.out.println(lac1); 
+    
+    Frodo Bolseiro (ID: 1)
+    Custo de Mana = 1
+    Ataque = 2
+    Vida Atual = 1
+    Vida Maxima = 1
+
+    Frodo Bolseiro (ID: 1)
+    Custo de Mana = 1
+    Ataque = 8
+    Vida Atual = 1
+    Vida Maxima = 1
+
+    Tarefa 3, ao comentar o metodo toString da classe CartaMagia, sao 
+    impressos apenas os atributos da superclasse relacionada, Carta.
+    Porque eu criei uma superclasse 'Carta' para aprimorar este código.
+    Caso eu não o tivesse feito, o resultado seria uma sequência de digitos
+    correspondente a posicao daquele objeto e antes disso a classe do
+    objeto.  
+   
+    Comentando o metodo toString na superclasse e na classe
+    CartaMagia@7852e922
+
+    Tarefa 4, nao ha diferenca entre as impressoes abaixo    
+    CartaLacaio lac5 = new CartaLacaio(lac2); 
+    System.out.println(lac5); 
+    System.out.println(lac2);
+    
+    Aragorn (ID: 2)
+    Custo de Mana = 6
+    Ataque = 5
+    Vida Atual = 7
+    Vida Maxima = 7
+
+    Aragorn (ID: 2)
+    Custo de Mana = 6
+    Ataque = 5
+    Vida Atual = 7
+    Vida Maxima = 7
+
+    Tarefa 5, nao podemos imprimir mag1.nome quando o atributo
+    nome eh declarado private, porque apenas dentro da classe temos
+    acesso a esse atributo, fora dela nao. Para acessar esse atributo
+    temos que criar metodos na classe que fazem isso
+
+    You shall not pass
+
+    A intencao de criar metodos get e set com atributos privados
+    e evitar que o usuario possa danificar as informacoes de um sistema.
+    Pois, ele apenas teria acesso aquilo que lhe fosse permitido, nos
+    moldes e maneiras que lhe fosse permitido utilizar 
+    
+    Tarefa 6, impressao das cartas antes do buff, buff e pos-buff 
+
+    System.out.println(lac1); 
+    System.out.println(lac2); 
+    
+    Buff das cartas
+    lac1.buffar(3);
+    lac2.buffar(10, 20); 
+    
+    Impressao das cartas apos o buff 
+    System.out.println(lac1); 
+    System.out.println(lac2); 
+    
+    Frodo Bolseiro (ID: 1)
+    Custo de Mana = 1
+    Ataque = 8
+    Vida Atual = 1
+    Vida Maxima = 1
+
+    Aragorn (ID: 2)
+    Custo de Mana = 6
+    Ataque = 5
+    Vida Atual = 7
+    Vida Maxima = 7
+
+    Frodo Bolseiro Buffed (ID: 1)
+    Custo de Mana = 1
+    Ataque = 11
+    Vida Atual = 4
+    Vida Maxima = 1
+
+    Aragorn Buffed (ID: 2)
+    Custo de Mana = 6
+    Ataque = 15
+    Vida Atual = 27
+    Vida Maxima = 7

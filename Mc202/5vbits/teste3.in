@@ -1,0 +1,10 @@
+create 100
+belongs 101
+in 101
+rank 101
+rangecount 101 102
+add 101
+remove 101
+print
+exit
+

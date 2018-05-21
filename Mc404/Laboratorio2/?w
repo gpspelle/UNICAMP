@@ -1,0 +1,11 @@
+# Gabriel Pellegrino da Silva
+# Ra: 172358
+# Laboratorio 2 - Mc404 Turma A
+# Calculo de trajetoria com simulador IAS e programacao em Hexadecimal
+
+000 00 00 00 00 0A # Endereco 000 com 10 (valor de g) 
+001 09 105 0B 000  # Carrega em MQ o valor presente em 0x105 e depois multi- 
+                   # plica pelo valor na posicao 000 (10), resultado em AC
+002 21 100 15 000  # Divide por 2 o valor presente em AC e depois atribui para
+                   # a variavel 100 o resultado. O resultado se mantem em AC?
+003 15 

@@ -1,0 +1,17 @@
+# Gabriel Pellegrino da Silva
+# Ra: 172358
+# Laboratorio 2 - Mc404 Turma A
+# Calculo de trajetoria com simulador IAS e programacao em Hexadecimal
+
+000 09 105 0B 103  # Carrega em MQ o valor presente em 0x105 e depois multi- 
+                   # plica pelo valor na posicao 103 (10), resultado em AC
+001 21 100 21 101  # Atribui para o endereco 100 e 101 o resultado
+002 15 21 101 000  # Divide o valor em AC por 2, jogo o resultado em 101 
+003 01 100 00 000  # Joga o valor do endereco 100 em AC 
+004 0C 101 00 00A  # Divide o valor de AC pelo valor de 101, o quociente eh co-
+                   # locado em MQ e joga o quociente de MQ para AC
+005 05 101 15 000  # Soma o valor de AC com o valor de 101 e joga em AC. Depois
+                   # Divide o valor de AC por 2.
+006 21 101 0D 400  # Joga o valor de AC no endereco 101.     
+103 00 00 00 00 0A # Endereco 103 com 10 e depois
+105 00 00 00 07 40 # Endereco 105 com o valor 3500

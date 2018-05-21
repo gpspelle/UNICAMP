@@ -1,0 +1,56 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 8
+
+    1. Para garantirmos que duas classes não serão instanciadas podemos defini-las como sendo abstratas.
+    Pois não podemos ter objetos de classes abstratas.
+
+    2. Para garantir o contrato de que as classes que herdam de Carta implementem o metodo 'usar', pode-
+    mos fazer que Carta implementa uma interface, mas nao cumpre o seu contrato com a interface. E todas
+    as subclasses que herdam de Carta implementam o contrato.
+    Uma das consequencias eh que não teremos mais objetos da classe Carta.
+
+    3. A vantagem encontrada para os controladores tratarem as interfaces eh que podemos ter diversos ser
+    viços com funcionalidades e atividades diferentes funcionando, simplesmente acrescentando uma nova
+    classe que implemente a interface que o controlador conhece.
+
+    4. Como dito acima, criaria um arquivo .java dentro do package com.gabriel.service.impl, e nele implemen
+    taria a interface JogadaService, e nesse arquivo eu colocaria a minha metodologia nova de jogo.
+    Como os processadores apenas conhecem os metodos da interface, ao usar o implements nessa nova classe,
+    garanto que os controladores continuaram processando corretamente.
+
+    5. A vantagem desse tipo é poder realizar, no caso, uma mesma atividade: comparar informações, mas de
+    maneiras diferentes, conforme a necessidade. O que pode ser feito para n maneiras, adicionando n classes
+    internas. Permite a diversificação do código de maneira concisa e organizada.
+
+
+    O seguinte output foi gerado, dando 10 de vida para cada heroi e realizando um ataque ao heroi inimigo (S),
+    a partir do jogador P. Nao foi considerada a existencia de mana para realizar os ataques, nem a presenca de uma
+    sequencia logica de turnos e contra ataques por parte de S.
+    Para acompanhar o funcionamento, foi impresso tambem a vida do heroi S.
+
+    Vida inimigo 10
+    Jogada btwvvyeoit (id: 80bbd32b-5022-4b95-9216-df2ec4597eab)
+    Custo de Mana = 2
+    Ataque = 6
+    Vida Atual = 6
+    Vida Maxima = 6
+     Alvo null Autor P
+
+    Vida inimigo 4
+    Jogada ekwsqcsqoj (id: 0f635bb1-d07d-48ff-9c19-49262b15dec4)
+    Custo de Mana = 1
+    Ataque = 3
+    Vida Atual = 5
+    Vida Maxima = 5
+     Alvo null Autor P
+
+    Vida inimigo 4
+    Jogada zlivglqvde (id: d7900c45-1768-466e-a35a-594ac42d68e9)
+    Custo de Mana = 2
+    Ataque = 10
+    Vida Atual = 2
+    Vida Maxima = 2
+     Alvo null Autor P
+
+    ###### P venceu!

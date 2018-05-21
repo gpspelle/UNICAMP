@@ -1,0 +1,107 @@
+* Não misture inglês com português. Use sempre um único idioma. O ideal é o inglês, porque fica mais fácil se você precisar recortar um pedaço do código pra mostrar pra alguém/stackoverflow, mas como ele já veio em português...
+
+Considerando que você já tinha atualizado as cartas contidas na Jogada com as cartas contidas em `lacaios` e `lacaiosOponente`, não precisava desse malabarismo todo para setar a vida. Todo o trecho acima poderia ser substituído por:
+
+```Java
+
+alvo.setVidaAtual(alvo.getVidaAtual() - jogada.getAtaque());
+
+if (alvo.getVidaAtual() <= 0) {
+
+    lacaiosOponente.remove(alvo);
+
+}
+
+* Durante a jogada, existem várias checagens se o jogador é o 1 ou o 2. Isso é muito ruim, porque exige que você duplique toda a lógica para os dois casos (jogador 1 atacando jogador 2 e jogador 2 atac. jog. 1).
+
+Considere o seguinte jeito alternativo:
+
+1. No começo do método, fazer uma checagem e, apropriadamente, atribuir variáveis locais (vidaHeroiTurno, vidaHeroiOponente, manaHeroiTurno e manaHeroiOponente etc).
+2. Fazer um único fluxo no decorrer do método, sempre considerando que HeroiTurno é o que ataca e HeroiOponente é o que sofre dano.
+3. No fim do método, fazer uma segunda checagem e, apropriadamente, retornar os valores das variáveis locais às de instância (vidaHeroi1, vidaHeroi2, manaHeroi1, manaHeroi2 etc)
+
+Isso não é muito mais fácil? Poxa, faltou muito reuso nesse código.
+
+* Não é ideal criar um aninhamento infinito de condicionais. Não precisa ser assim:
+
+```Java
+if () {
+if () {
+if () { } else {
+if () {}
+}
+}
+}
+```
+
+Você sabe que exceções interrompem o fluxo de código. Se você colocar ela na frente, não vai precisar se preocupar em usar o `else`:
+
+```Java
+if (alvo.getVidaAtual() <= 0) {
+throw new LamaException(...);
+}
+if (!lacaiosOponente.contains(alvo)) {
+throw new LamaException(...);
+}
+
+// Continua com o fluxo normal, no mesmo escopo do método...
+```
+
+* Em condicionais compostos com termos ligados por operadores de curto circuito, as expressões de menor complexidade devem sempre vir primeiro. Isto é, NÃO faça isso: `if(!lacaiosOponente.contains(alvo) || alvo.getVidaAtual() <= 0)`. Em vez, faça: `if(alvo.getVidaAtual() <= 0 || !lacaiosOponente.contains(alvo))`.
+
+É assintoticamente mais rápido checar se alvo.getVidaAtual() é menor que zero do que se a lista contém o alvo. Portanto, teremos maior performance nos casos onde o primeiro termo é verdadeiro.
+
+* Não se checa uma mesma condição mais de uma vez, como você fez abaixo:
+
+```Java
+if(!lacaiosOponente.contains(alvo) || alvo.getVidaAtual() <= 0) { // Erro 10: magia em alvo invalido (lacaio nao esta nos lacaios do oponente ou ja esta morto).
+String msgErro = !lacaiosOponente.contains(alvo) ?
+"Erro: tentou usar a magia com ID "+ magia.getID()+" em um alvo invalido, que nao esta na mesa do oponente. ID do alvo invalido: " + alvo.getID() :
+"Erro: tentou usar a magia com ID "+ magia.getID()+" em um lacaio que ja está morto. ID do lacaio: " + alvo.getID();
+
+imprimir(msgErro);
+throw new LamaException(10, jog, msgErro, idOponente);
+}
+```
+
+Isso porque é um disperdício de processamento (especialmente em condições mais complicadas) que poderia muito bem ser prevenido ao re-escrever a condicional de uma forma mais simples:
+
+```Java
+String errorMessage = alvo.getVidaAtual() <= 0
+? "Erro: tentou usar a magia com ID "+ magia.getID()+" em um alvo invalido, que nao esta na mesa do oponente. ID do alvo invalido: " + alvo.getID()
+: !lacaiosOponente.contains(alvo)
+? "Erro: tentou usar a magia com ID "+ magia.getID()+" em um lacaio que ja está morto. ID do lacaio: " + alvo.getID()
+: "";
+
+if (!error.isEmpty()) {
+imprimir(error);
+throw new LamaException(errorCode, jogada, errorMessage, oponente);
+}
+```
+
+* Você fez as mesmas checagens várias vezes. Isso era um indicativo de possível re-uso estrutural. Você poderia facilmente criar um método privado que checasse o estado do jogo e o chamar nos locais adequados:
+
+```Java
+class MotorRAxxxxxx extends Motor {
+private void confirmaAlvoValido(Jogada jogada) {
+CartaLacaio alvo = (CartaLacaio) jogada.getCartaAlvo();
+
+if(!lacaiosOponente.contains(alvo) || alvo.getVidaAtual() <= 0) {
+throw new LamaException(...);
+}
+}
+
+protected void processarJogada(Jogada jogada) {
+// ...
+confirmaCartaUsadaValida(jogada);
+// ...
+case ATAQUE:
+confirmaAlvoValido(jogada);
+// ...
+case PODER:
+confirmaAlvoValido(jogada);
+// ...
+// ...
+}
+}
+```

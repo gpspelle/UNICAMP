@@ -1,0 +1,4 @@
+.org 0x400
+.set TEMP 23
+LOAD "5"
+

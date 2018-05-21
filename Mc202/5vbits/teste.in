@@ -1,0 +1,9 @@
+/*
+	for(j=1; k<i && j<=n; j++)
+		if(in(vetorB, j))
+			k++;			
+	if(k==i)
+		printf("select(%d) = %d\n", i, --j);
+	else if(i<n)
+		printf("select(%d) = 0\n", i);
+	*/

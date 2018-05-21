@@ -1,0 +1,43 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 3
+
+    1. O codigo esta adaptado para poder ser adicionadas ate 10 cartas,
+    no entanto, caso tente adicionar mais de 30 cartas, o usuario recebera uma
+    mensagem de erro e a carta nao sera adicionada.
+    No entanto, o resultado padrao, sem tratamento de erros seria um 
+                        IndexOutofBoundsException
+    que significa que estou tentando acessar uma posicao nao permitida da 
+    memoria.
+
+    2. Como a variavel que controla a quantidade de cartas eh estatica e inicia
+    lizada com 0, ao tentarmos comprar uma carta com o baralho vazio, ou antes 
+    de instanciar um objeto do tipo baralho, tambem receberemos uma erro do ti
+    po 
+                        IndexOutofBoundsException.
+        
+    3. Um atributo estatico nao precisa de um objeto instanciado para ser uti
+    lizado. E essa variavel pode ser estatica, pois nao faz uso de outros atri
+    butos nao estaticos da classe. Alem disso, podemos complementar que um atri
+    buto estatico pertence ao escopo da classe, enquanto o nao estatico, perten
+    ce a um objeto de uma classe, que fora instanciado. 
+
+    4. A linha de codigo que contem 'new Random()' eh executada uma vez por exe
+    cucao do programa. O gerador nao precisa ser inicializado, porque ele pos
+    sui o construtor da classe Random, que inicializa a seed do gerador.
+
+    5. Os beneficios da classe Util estao em separar blocos de codigo em etapas
+    concisas de acoes, definir constantes, metodos comuns a todas as classes,
+    etc. Alem disso, os metodos estaticos nao requerem que seja criado um obje
+    to da classe Util. A variavel final tem a utilidade de nao poder ter o seu
+    valor trocado em tempo de execucao.
+
+    6. A classe ArrayList alem de ser mais elegante e concisa, permite uma quan
+    tidade 'n' de cartas, sendo n um inteiro qualquer. Ademais, podemos utili
+    zar os metodos da superclasse Collections para realizar atividades com o 
+    ArrayList.
+
+    Para Pensar: para adicionarmos objetos de diversos tipos ao nosso baralho,
+    podemos criar um ArrayList de cartas, e cada carta poder se transformar em
+    uma carta especifica. Outras ideias sao possiveis, mas acredito que nenhuma
+    tao elegante quanto a descrita acima. 

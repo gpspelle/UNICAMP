@@ -1,0 +1,22 @@
+MC302
+
+Dúvidas e/ou erros neste pacote: [PED] rafaelkendyarakaki@gmail.com
+
+Objetivo: Este arquivo contém instruções de como montar seu projeto no Eclipse para o Trabalho 1,
+utilizando-se do código fornecido, exemplos e documentação.
+
+Instruções:
+
+1) Crie um novo projeto no Eclipse.
+2) Crie uma nova classe neste projeto chamada "Main", no pacote default (não especificar nada no campo 'package').
+3) Copie o conteúdo do arquivo disponibilizado src/Main.java para ser o conteúdo da classe "Main" recém criada.
+4) Neste momento irão aparecer diversos erros e warnings no Eclipse.
+5) Clique com botão direito no seu projeto, selecione as propriedades, vá em "Java Build Path -> Add External Class Folder", e adicione a pasta "bin" disponibilizada neste pacote.
+6) Clique na setinha ao lado esquerdo do item que foi criado (logo abaixo da frase "JARs and class folders on the build path").
+7) Escolha a opção Javadoc location, navegue até a pasta "doc" disponibilizada neste pacote e selecione-a.
+8) Dê OK e feche as janelas.
+
+Neste momento o Eclipse já deve ter reconhecido o código e a documentação e já deve ser possível compilar e testar o exemplo disponibilizado.
+
+Qualquer dúvida enviar por e-mail.
+

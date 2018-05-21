@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="motor-v2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Lab_05_Hearthstone/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

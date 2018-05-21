@@ -1,0 +1,6 @@
+.org 10
+ADD "5"
+ADD "5"
+.org 0
+.align 10
+ADD "5"

@@ -1,0 +1,52 @@
+Grupo:
+
+    Gabriel Pellegrino da Silva / 172358
+    Leonardo /* completa aqui seu nome e RA */
+
+
+    As relações de herança, agregação, composição e associação, polimorfismo, e entre outras estruturas
+    da programação orientadas a objetos podem ser visualizadas na imagem. Esse texto visa complementar
+    o conteúdo da imagem, bem como explicar mais sobre o fluxograma de uma partida.
+
+    O jogo começa descobrindo quantos jogadores irão jogar, isso é feito através da leitura padrão,
+    (System.in), repetindo em um laço a leitura até ser digitado entre [2, 6].
+
+    Depois, é criado um tabuleiro, e um tabuleiro contem um processador de jogadas.
+    O processador possui quantos jogadores irão jogar e um banco; este por sua vez, nesse momento possui
+    todos os hoteis, casas, propriedades do jogo, cartas sorte ou revés e um dado. Para facilitar, a ideia
+    de dinheiro foi abstraida para um cartão de crédito, a fim de evitar a implementação de troco nas tran
+    sações. Lembrando que o dinheiro não é infinito e é distribuido igualmente entre os jogadores no início
+    de uma partida.
+
+    Os locais do banco são inicializados com o método 'setLocaisBanco' para colocar as subclasses nesse
+    ArrayList de Locais.
+
+    Todos os jogadores começam também com nenhuma propriedade e na posição inicial (0) do tabuleiro.
+
+    Agora, o processador irá definir uma sequência aleatória de números, sem repetição, para decidir a or-
+    dem da vez dos jogadores. E irá iterar por essa sequência até o fim da partida, excluindo, claramente,
+    os jogadores que forem falindo ou cansando de jogar.
+
+    Na vez de cada jogador, serão jogados dois dados de 6 posições, para determinar quantas casas serão
+    avançadas no tabuleiro. O valor caminhado será somado com a posição atual do jogador e iremos verificar
+    no Banco em qual local ele caiu.
+
+    Sem dúvidas, o local que ele caiu possui uma ação, mesmo que ação sej fazer nada. Então, o banco possui
+    uma coleção da superclasse abstrata locais, que podem ser especializados para tipos diferentes de locais
+    e todos tem o método 'ação'.
+
+    Cada local especializado, irá realizar a ação descrita na sua implementação e realizar todas as trocas
+    monetárias obrigatórias, como por exemplo, pagar outro jogador, ganhar dinheiro, ir para a prisão, não
+    realizar nada na parada livre. No entanto, esse UML não prevê ainda uma estrutura e algoritmo de inte-
+    ligência para realizar as jogadas optativas: comprar um terreno, construir casas, hotéis, etc.
+
+    Depois de realizada todas as ações, o jogo volta para o processador, e é o turno do próximo jogador pre-
+    visto na lista.
+
+    Adicionais são que, ao fim da pilha de cartas sorte ou revés, a pilha é embaralhada e posta para ser u-
+    tilizada novamente.
+
+    /* Comentários */
+
+    De especial em relação a OO, foi utilizada uma classe abstrata para locais e dois enums contendo as rela-
+    ções de tipo de jogada para as posições de sorte ou revés

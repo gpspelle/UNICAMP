@@ -1,0 +1,35 @@
+# Gabriel Pellegrino da Silva
+# Ra: 172358
+# Laboratorio 3 - Mc404 Turma A
+# Calculo de produto escalar de vetores de tamanho desconhecido
+
+000 01 3FF 06 099 # Carrega AC com o valor de 3FF e subtrai 1
+001 21 070 0D 002 # Coloca o valor de AC em 70
+002 01 3FE 21 071 # Carrega AC com o valor de 3FE e coloca o valor de AC em 71
+003 01 3FD 21 072 # Carrega AC com o valor de 3FD e coloca o valor de AC em 72
+004 01 071 12 005 # Carrega AC com o valor de 71 e coloca o valor de AC como
+                  # endereco da instrucao 005 
+005 09 000 01 072 # Carrego MQ com o endereco colocado pela instrucao 003
+                  # E carrega AC com o valor de 072
+006 12 007 0D 007 # Coloca o valor de AC como instrucao a esquerda de 006
+007 0B 000 0A 000 # E depois multiplica esse endereco por MQ e guarda em AC
+008 05 073 0D 009 # Soma o resultado com o que esta em 073 
+009 21 073 01 070 # Guarda o resultado do produto em 073 e poe o contador em AC
+00A 06 099 21 070 # Subtrai 1 do tamanho dos vetores e escrevo de volta
+00B 01 071 05 099 # Carrego o valor de 71 e somo 1
+00C 21 071 01 072 # Escrevo em 71 e carrego 72
+00D 05 099 21 072 # Somo 1 e escrevo em 072
+00E 01 070 0F 004 # Carrego o valor de 70 e testo se eh positivo e pulo para 003 
+00F 01 073 0D 400 # Carrego o resultado de 073 e termino
+
+# 'Variaveis'do programa
+073 00 00 00 00 00 # Comecando com 0 o resultado 
+099 00 00 00 00 01 # Endereco para decrementar em 1 o contador
+100 00 00 00 00 01
+101 00 00 00 00 02
+102 00 00 00 00 04
+103 00 00 00 00 0C
+
+3FF 00 00 00 00 02 # Endereco 3FF com o tamanho dos vetores
+3FE 00 00 00 01 00 # Endereco do inicio do primeiro vetor
+3FD 00 00 00 01 02 # Endereco do inicio do segundo vetor

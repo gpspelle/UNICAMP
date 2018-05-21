@@ -1,0 +1,38 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 6
+
+    1. Tempo decorrido em ArrayList com get 11 ms.
+    2. Tempo decorrido LinkedList com get 69 ms.
+    3. Tempo decorrido em ArrayList com contains 13 ms.
+    4. Tempo decorrido em LinkedList com contains 0 ms.
+    5. Sim, podemos adicionar elementos repetidos em um ArrayList, LinkedList ou Vector.
+
+    6. Tempo decorrido em HashSet com contains 20 ms
+    7. Tempo decorrido em TreeSet com contains 24 ms
+    8. Uma HashSet permite a insercao de elementos repetidos, e um TreeSet permite a inserção de elementos repetidos
+    desde que na declaração do seu comparador, especifiquemos essa possibilidade. O que pode ou não ser bom em uma
+    aplicação java.
+
+    9.  maiorAtaque (id: null)
+        Custo de Mana = 2
+        Ataque = 4
+        Vida Atual = 4
+        Vida Maxima = 5
+    10. Soma dos Ataques 9
+    11. [maiorVida (id: null)
+        Custo de Mana = 1
+        Ataque = 2
+    ->  Vida Atual = 5
+        Vida Maxima = 4
+        , maiorAtaque (id: null)
+        Custo de Mana = 2
+        Ataque = 4
+    ->  Vida Atual = 4
+        Vida Maxima = 5
+        , menorVida (id: null)
+        Custo de Mana = 2
+        Ataque = 3
+    ->  Vida Atual = 3
+        Vida Maxima = 5
+        ]

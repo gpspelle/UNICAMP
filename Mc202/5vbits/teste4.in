@@ -1,0 +1,11 @@
+create 1
+add 1
+remove 1
+print
+add 2
+remove 2
+select 1
+select 2
+select 0
+exit
+

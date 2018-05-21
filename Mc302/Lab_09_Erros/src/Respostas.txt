@@ -1,0 +1,33 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 9
+
+    1. A excecao gerada eh java.lang.NullPointerException, pois estaremos tentando chamar
+    os metodos de um objeto, mas nao possuimos um endereco para o objeto.
+    Primeiro, analiso qual eh o tipo do erro. Se apenas com o tipo do erro nao consigo i-
+    dentificar o problema, analiso a chamada da pilha que o erro ocorreu, e caso nao con-
+    siga ainda identificar o problema, repito a ultima acao recursivamente.
+
+    2. Codigo implementado e a solucao adotada foi de adicionar uma carta aleatoria caso
+    o tamanho passado seja 0 e a lista seria vazia.
+
+    3. Caso a mesa seja nula, a excecao no metodo eh gerada de MesaServiceImpl e tratada
+    na classe controle, que pode imprimir uma mensagem sobre o erro e cancelar a proce-
+    dencia do codigo.
+
+    4. A facilidade esta em nao ter de criar classes proprias, com seus construtores e men
+    sagens, nao precisar se preocupar com o uso de throws tambem.
+
+    5. Implementado.
+
+    6. Exemplo de output obtido passando null no lugar de mesa na classe controle na chama-
+    da do metodo adicionaLacaios de mesa.
+
+       Erro: Mesa Nula
+       Partida Encerrada
+
+    7. Esse trecho de codigo eh uma ma pratica porque qualquer tipo de excecao que herde de
+    exception ira entrar nesse catch, e mesmo que haja outros catchs abaixo, eles nao serao
+    executados. O que pode diminuir a eficacia na hora de debuggar um programa ou entender
+    especificadamente qual eh o problema com o codigo.
+

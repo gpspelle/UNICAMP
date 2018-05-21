@@ -1,0 +1,48 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 10
+
+Validacao:
+[Batman (id: d1f6d8cc-70cc-46e4-b9c7-51d3437bb228)
+Custo de Mana = 1
+Ataque = 1
+Vida Atual = 1
+Vida Maxima = 1
+, RaioDoMal (id: 29c1dc44-626c-4626-a42b-b36242ac70d3)
+Custo de Mana = 1
+Dano = 1
+, CogumeloDoMario (id: 7201e44e-1b13-44a1-9ddf-3b19b689f607)
+Custo de Mana = 1
+Aumento em Ataque = 1
+Aumento em Vida = 1
+, ExplosaoTchakabum (id: 6582ff30-0bf7-485b-8f29-efc0149eab22)
+Custo de Mana = 1
+Dano = 1
+]
+[Batman (id: d1f6d8cc-70cc-46e4-b9c7-51d3437bb228)
+Custo de Mana = 1
+Ataque = 1
+Vida Atual = 1
+Vida Maxima = 1
+, RaioDoMal (id: 29c1dc44-626c-4626-a42b-b36242ac70d3)
+Custo de Mana = 1
+Dano = 1
+, CogumeloDoMario (id: 7201e44e-1b13-44a1-9ddf-3b19b689f607)
+Custo de Mana = 1
+Aumento em Ataque = 1
+Aumento em Vida = 1
+, ExplosaoTchakabum (id: 6582ff30-0bf7-485b-8f29-efc0149eab22)
+Custo de Mana = 1
+Dano = 1
+]
+
+    1. Para serializarmos um baralho, bastaria que identificassemos que ali estaria um objeto do tipo baralho
+
+    obj Baralho
+    #1
+    #2
+    ...
+    #n
+    obj Baralho
+
+    e entre esse marcadores estariam as serializacoes das n cartas que estao no baralho, denotadas por #i.

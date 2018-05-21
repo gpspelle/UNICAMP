@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f2ace6e-7d9a-4a51-897c-c3c9525f3046" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/contato.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/Database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/Donation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/DonationManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/FazendaBot.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/Ong.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/OngManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/core/Utilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/css/grayscale.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/db_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/img/downloads-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/img/downloads-bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/img/intro-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/img/intro-bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/img/map-marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/js/grayscale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/js/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/less/grayscale.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/bootstrap-social.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/bootstrap-social.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap-social/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/nuget/MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/nuget/bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/nuget/bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/average().js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/column().title().js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/columns().order().js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnAddDataAndDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnAddTr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnColumnIndexToVisible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnDataUpdate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnDisplayRow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnDisplayStart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnFakeRowspan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnFilterAll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnFilterClear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnFilterOnReturn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnFindCellRowIndexes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnFindCellRowNodes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnGetAdjacentTr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnGetColumnData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnGetColumnIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnGetHiddenNodes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnGetTd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnGetTds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnLengthChange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnMultiFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnPagingInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnProcessingIndicator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnReloadAjax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnSetFilteringDelay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnSortNeutral.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnStandingRedraw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/fnVisibleToColumnIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/page.jumpToData().js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/api/sum().js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/row-based/TableTools.ShowSelectedOnly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/row-based/range_dates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/row-based/range_numbers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/type-based/accent-neutralise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/type-based/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/filtering/type-based/phoneNumber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Afrikaans.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Albanian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Arabic.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Azerbaijan.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Bangla.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Belarusian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Bulgarian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Catalan.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Chinese-traditional.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Chinese.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Croatian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Czech.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Danish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Dutch.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/English.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Estonian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Filipino.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Finnish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/French.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Galician.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Georgian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/German.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Greek.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Gujarati.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Hebrew.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Hindi.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Hungarian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Icelandic.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Indonesian-Alternative.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Indonesian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Irish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Italian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Japanese.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Korean.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Latvian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Lithuanian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Macedonian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Malay.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Norwegian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Persian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Polish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Portuguese-Brasil.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Portuguese.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Romanian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Russian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Serbian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Slovak.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Slovenian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Spanish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Swahili.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Swedish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Tamil.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Thai.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Turkish.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Ukranian.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Urdu.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Uzbek.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/Vietnamese.lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/i18n/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/font-awesome/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/font-awesome/dataTables.fontAwesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/font-awesome/datatables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/font-awesome/foundation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/foundation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/integration/jqueryui/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/make.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/ellipses.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/extjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/four_button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/jPaginator/dataTables.jPaginator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/scrolling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/pagination/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/alt-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/anti-the.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/chinese-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/currency.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/custom-data-source/dom-checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/custom-data-source/dom-select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/custom-data-source/dom-text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/date-dd-MMM-yyyy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/date-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/date-eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/date-euro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/date-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/datetime-moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/datetime-us.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/enum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/file-size.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/formatted-numbers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/ip-address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/monthYear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/natural.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/num-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/numeric-comma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/percent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/persian.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/scientific.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/signed-num.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/stringMonthYear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/title-numeric.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/title-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/sorting/turkish-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/currency.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/date-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/file-size.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/formatted-num.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/ip-address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/num-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-plugins/type-detection/numeric-comma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/css/responsive.bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/css/responsive.dataTables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/css/responsive.foundation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/css/responsive.jqueryui.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/api/responsive.index().xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/api/responsive.rebuild().xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/api/responsive.recalc().xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/option/responsive.breakpoints.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/option/responsive.details.renderer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/option/responsive.details.target.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/option/responsive.details.type.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/option/responsive.details.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/docs/option/responsive.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/child-rows/column-control.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/child-rows/custom-renderer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/child-rows/disable-child-rows.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/child-rows/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/child-rows/right-column.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/child-rows/whole-row-control.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/display-control/auto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/display-control/classes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/display-control/complexHeader.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/display-control/fixedHeader.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/display-control/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/display-control/init-classes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/initialisation/ajax.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/initialisation/className.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/initialisation/default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/initialisation/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/initialisation/new.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/initialisation/option.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/styling/bootstrap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/styling/compact.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/styling/foundation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/styling/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/styling/jqueryui.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/examples/styling/scrolling.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/js/dataTables.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables-responsive/make.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/Contributing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/dataTables.bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/dataTables.foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/dataTables.foundation.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/dataTables.jqueryui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/dataTables.jqueryui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/jquery.dataTables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/jquery.dataTables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/css/jquery.dataTables_themeroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/Sorting icons.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/dataTables.foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/dataTables.foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/dataTables.jqueryui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/dataTables.jqueryui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/datatables/media/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/js/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/js/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/API.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/FAQ.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/NEWS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/PLUGINS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-eu-gdp-growth-1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-eu-gdp-growth-2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-eu-gdp-growth-3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-eu-gdp-growth-4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-eu-gdp-growth-5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-eu-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-japan-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/data-usa-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/ajax/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/annotating/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-interacting/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-multiple/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/africa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/antarctica" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/asia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/australasia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/backward" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/etcetera" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/europe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/factory" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/iso3166.tab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/leapseconds" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/northamerica" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/pacificnew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/solar87" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/solar88" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/solar89" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/southamerica" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/systemv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/yearistype.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time-zones/tz/zone.tab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/axes-time/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/basic-options/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/basic-usage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/canvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/categories/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/examples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/image/hs-2004-27-a-large-web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/image/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/interacting/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/navigate/arrow-down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/navigate/arrow-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/navigate/arrow-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/navigate/arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/navigate/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/percentiles/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/realtime/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/resize/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/selection/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/series-errorbars/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/series-pie/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/series-toggle/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/series-types/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/shared/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/stacking/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/symbols/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/threshold/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/tracking/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/visitors/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/examples/zooming/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/flot.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/flot/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/extras.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/holder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/src/augment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/src/holder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/src/ondomready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/src/polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/test/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/test/image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/holderjs/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/dist/jquery.timeago.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/dist/metisMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/dist/metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/dist/metisMenu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/dist/metisMenu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/src/metisMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/metisMenu/src/metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/media/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/mocha.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/mocha/mocha.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/bower.travis.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/_template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/area-as-line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/bar-colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/bar-no-axes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/days.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/decimal-custom-hover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/diagonal-xlabels-bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/diagonal-xlabels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/donut-colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/donut-formatter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/donut.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/dst.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/goals.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/lib/example.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/lib/example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/months-no-smooth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/negative.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/no-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/non-continuous.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/non-date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/quarters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/resize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/stacked_bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/timestamps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/updating.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/weeks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/examples/years.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/less/morris.core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.area.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.bar.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.donut.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.grid.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.hover.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/lib/morris.line.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/morris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/area/area_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/bar/bar_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/bar/colours.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/commas_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/donut/donut_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/grid/auto_grid_lines_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/grid/set_data_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/grid/y_label_format_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/hover_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/label_series_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/line/line_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/pad_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/lib/parse_time_spec.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/specs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/support/placeholder.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/exemplary/area0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/exemplary/bar0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/exemplary/line0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/exemplary/stacked_bar0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/run.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/morrisjs/spec/viz/visual_specs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/dev/amdDev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/dev/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/dev/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/raphael-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/bower_components/raphael/raphael.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/dist/css/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/dist/css/sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/dist/css/timeline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/dist/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/dist/js/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/dist/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/js/flot-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/js/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/js/morris-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/less/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/less/sb-admin-2.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/lib/AltoRouter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/lib/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/main/bottom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/main/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/main/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/invoice.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/receiver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/register.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/panel/pages/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/sass/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/Server Side/sass/grayscale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/house.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/logo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/padrePreto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/quadriculado.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/receita-federal-icon-branco.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/receita-federal-icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/receita-federal-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/img/receita-federal-reduzido.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/home_reserva.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../appPadre/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/css/style.css" afterPath="$PROJECT_DIR$/../../appPadre/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/index.html" afterPath="$PROJECT_DIR$/../../appPadre/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/js/app.js" afterPath="$PROJECT_DIR$/../../appPadre/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/js/controllers.js" afterPath="$PROJECT_DIR$/../../appPadre/www/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/doacoes.html" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/doacoes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/home.html" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/insercao.html" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/insercao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/menu.html" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/sobre.html" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/sobre.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../appPadre/www/templates/tutoriais.html" afterPath="$PROJECT_DIR$/../../appPadre/www/templates/tutoriais.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MotorRA172358.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MotorRA172358.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JogadorAleatorio.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/pacote-trabalho2/bin/JogadorAleatorio.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2268">
+              <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JogadorRA172358.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JogadorRA172358.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="51" column="76" lean-forward="false" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="165" column="67" lean-forward="false" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Respostas.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/JogadorRA172358.java" />
+        <option value="$PROJECT_DIR$/src/MotorRA172358.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="30" />
+    <option name="width" value="1368" />
+    <option name="height" value="739" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_11_Motor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pacote-trabalho2/pacote-trabalho2/bin" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Lab_11_Motor" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Lab_11_Motor" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f2ace6e-7d9a-4a51-897c-c3c9525f3046" name="Default" comment="" />
+      <created>1496778339613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496778339613</updated>
+      <workItem from="1496778342621" duration="19539000" />
+      <workItem from="1496804530603" duration="12000" />
+      <workItem from="1496805536695" duration="52000" />
+      <workItem from="1496929298267" duration="13000" />
+      <workItem from="1497558391226" duration="882000" />
+      <workItem from="1497795049134" duration="2028000" />
+      <workItem from="1497797080506" duration="402000" />
+      <workItem from="1497797582205" duration="1019000" />
+      <workItem from="1497798618697" duration="1064000" />
+      <workItem from="1497799711067" duration="5081000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30092000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="30" width="1368" height="739" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.124223605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Carta.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Baralho.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/AcaoGUI.class" />
+    <entry file="file://$PROJECT_DIR$/src/MotorRA172358.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceRunner.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceGUI.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceGrafica.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Funcionalidade.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/CartaMagia.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/CartaLacaio.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Carta.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Baralho.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/AcaoGUI.class" />
+    <entry file="file://$PROJECT_DIR$/src/MotorRA172358.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceRunner.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceGUI.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceGrafica.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Funcionalidade.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/CartaMagia.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/CartaLacaio.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Carta.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Baralho.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/AcaoGUI.class" />
+    <entry file="file://$PROJECT_DIR$/src/MotorRA172358.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4068">
+          <caret line="222" column="8" lean-forward="false" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/TipoCarta.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/UnoptimizedDeepCopy.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/TipoMagia.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/TipoJogada.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/TipoEfeito.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/TipoAcao.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Motor.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Mesa.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/LamaException.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/JogadorAleatorioFuncionalidades.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/JogadorAleatorio.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Jogador.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Jogada.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceRunner.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceGUI.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/InterfaceGrafica.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Funcionalidade.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/CartaMagia.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/CartaLacaio.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Carta.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/Baralho.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/bin/AcaoGUI.class" />
+    <entry file="file://$PROJECT_DIR$/../pacote-trabalho2/pacote-trabalho2/bin/JogadorAleatorio.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Respostas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="165" column="67" lean-forward="false" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JogadorRA172358.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="51" column="76" lean-forward="false" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MotorRA172358.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lab_11_Motor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

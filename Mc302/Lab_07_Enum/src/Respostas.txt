@@ -1,0 +1,15 @@
+Gabriel Pellegrino da Silva /172358
+
+Respostas do Laboratório 7
+
+
+    1. É possível criar um baralho com cartas de diferentes classes a partir de uma estrutura polimórfica de herança, onde a partir de um conjunto de elementos da superclasse, podemos especializá-los em elementos das subclasses.
+    Quando o metodo usar (que é sobrescrito em cada subclasse) é utilizado, chamamos a implementação da subclasse.
+
+    2. Uma mesa é uma associação de cartas, pois uma carta faz sentido sem a presença de uma mesa, mas uma mesa sem cartas não possui significado.
+
+    3. Uma mesa e um processador de jogadas formam uma associação, uma mesa pode existir sem um processador de jogadas, no entanto, um processador de jogadas não tem função sem uma mesa para operar.
+
+    4. A palavra chave 'final' indica que não podemos valorar mais de uma vez um atributo.
+
+/*Comentário pessoal: tenho dificuldade em distinguir associação, agregação, composição. Para mim, dependendo do contexto, do ângulo que eu olho a relação, ela parece uma; ou parece outra*/

@@ -1,0 +1,46 @@
+MC302 - Programação Orientada a Objetos
+
+Dúvidas e/ou erros neste pacote: [PED] rafaelkendyarakaki@gmail.com
+
+Objetivo: Este arquivo contém instruções de como montar seu projeto no Eclipse para o Trabalho 1,
+utilizando-se do código fornecido, exemplos e documentação.
+
+Instruções:
+
+1) Crie um novo projeto no Eclipse.
+2) Crie uma nova classe neste projeto chamada "Main", no pacote default (não especificar nada no campo 'package').
+3) Copie o conteúdo do arquivo disponibilizado src/Main.java para ser o conteúdo da classe "Main" recém criada.
+4) Neste momento irão aparecer diversos erros e warnings no Eclipse.
+5) Clique com botão direito no seu projeto, selecione as propriedades, vá em "Java Build Path -> Libraries -> Add External Class Folder", e adicione a pasta "bin" disponibilizada neste pacote.
+6) Clique na setinha ao lado esquerdo do item que foi criado (logo abaixo da frase "JARs and class folders on the build path").
+7) Escolha o menu Javadoc location, navegue até a pasta "doc" disponibilizada neste pacote e selecione-a.
+8) Dê OK e feche as janelas.
+9) Na aba 'Project Explorer', clique com botão direito em cima do seu projeto e selecione "New -> Folder", nomeie-o "resources".
+10) Copie todos os arquivos da pasta "resources" contidos nesse pacote para a pasta recém criada do seu projeto.
+11) Atente-se de que a pasta 'resources' precisa estar no mesmo nível de hierarquia de 'src'. Deste modo a interface gráfica encontrará as imagens.
+
+Nesse momento o Eclipse já deve ter reconhecido o código, documentação e arquivos extras. Já deve ser possível compilar e testar o exemplo disponibilizado.
+
+Qualquer dúvida enviar por e-mail.
+
+
+------------------------------------------------------
+
+# Atualizações da versão 2 #
+- Adicionada a interface gráfica e instruções de como usá-la.
+- Corrigido o charset da documentação para UTF-8.
+- Adicionada uma flag no Motor para permitir desabilitar o tempo limite de resposta do Jogador.
+
+------------------------------------------------------
+
+# Atualizações da versão 3 #
+- Retirado limite de lacaios em mesa.
+- Adicionado imagens de buffs para a interface gráfica.
+
+------------------------------------------------------
+
+# Atualizações da versão 4 #
+- Voltado o limite de sete lacaios em mesa. Enunciado atualizado!
+
+
+
